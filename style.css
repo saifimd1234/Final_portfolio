@@ -1020,3 +1020,61 @@ footer nav .nav-links li a:hover {
     max-height: 350px;
   }
 }
+
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  font-family: 'Noto Serif Telugu', sans-serif;
+  margin: 20px 0;
+}
+
+td {
+  border: 1px solid #ddd;
+  padding: 10px;
+  text-align: left;
+}
+
+td:first-child {
+  width: 50px;
+  text-align: center;
+}
+
+.dropdown {
+  position: relative;
+}
+
+.dropdown-toggle {
+  cursor: pointer;
+  display: block;
+  font-weight: bold;
+}
+
+.dropdown-toggle:hover {
+  color: #2c3e50;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 300px;
+  box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+  z-index: 1;
+  left: 10px;
+  top: 100%;
+}
+
+.dropdown-content table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.dropdown-content td {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+.dropdown-content td:hover {
+  background-color: #e0e0e0;
+}
